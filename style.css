@@ -1,0 +1,82 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Nova Square', sans-serif;
+    text-align: justify;
+}
+
+header {
+    position: relative;
+}
+
+img {
+    width: 1200px;
+}
+
+h2 {
+    position: absolute;
+    top: 210px;
+    left: 300px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h1 {
+    position: absolute;
+    top: 230px;
+    left: 290px;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+#main {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.introduction {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+blockquote {
+    background: #3d3c3c;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    margin: 0 -40px 0 -40px;
+    line-height: 45px;;
+}
+
+blockquote:before{
+    content: "\201C";
+}
+
+.title {
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.subsubtitle {
+    margin-top: -20px;
+    font-weight: 600;
+}
+
+.points {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+hr {
+    border: 2px solid black;
+}
